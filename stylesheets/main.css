@@ -67,6 +67,10 @@ nav a:hover, .dropdown:hover .dropbtn {
 }
 
 footer {
-    margin-top: 100%;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
     text-align: center;
+    color: #0f4d92;
 }
