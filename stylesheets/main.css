@@ -11,6 +11,10 @@ nav {
   font-family: Arial;
 }
 
+body {
+    margin-bottom: 50px;
+}
+
 nav a {
   float: left;
   font-size: 16px;
@@ -67,8 +71,11 @@ nav a:hover, .dropdown:hover .dropbtn {
 }
 
 footer {
-    left: 0;
-    bottom: 0;
+    height: 50px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    margin-bottom: 0px
     position: fixed;
     width: 100%;
     text-align: center;
