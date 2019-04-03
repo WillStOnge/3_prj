@@ -71,13 +71,10 @@ nav a:hover, .dropdown:hover .dropbtn {
 }
 
 footer {
-    height: 50px;
-    left: 0px;
-    bottom: 0px;
-    right: 0px;
-    margin-bottom: 0px
-    position: fixed;
-    width: 100%;
+    position: relative;
+    margin-top: -180px;
+    height: 180px;
+    clear: both;
     text-align: center;
     color: #0f4d92;
 }
