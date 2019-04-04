@@ -6,6 +6,38 @@
     <link rel="shortcut icon" href="images/favicon.ico">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="stylesheets/main.css">
+    <style>
+        h2, h3, p, a {
+            color: #0f4d92;
+            text-align: center;
+        }
+        
+        #left {
+            display: block;
+            float: left;
+            width: 50%;
+            margin-left: 25%;
+        }
+        
+        #right {
+            display: block;
+            float: right;
+            width: 25%;
+            text-align: center;
+        }
+        
+        #news {
+            border: 2px #0f4d92 solid;
+            width: 80%;
+            box-sizing: content-box;
+            margin: 5px auto;
+        }
+        
+        #news img {
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -41,10 +73,45 @@
                 <a href="admission/requirements.html">Requirements</a>
             </div>
         </div>
-
     </nav>
     <main>
-        
+        <div id="left">
+            <h2>Yale School of Art News</h2>
+            <div id="news">
+                <h3>Pfeiffer Lecture Cancelled</h3>
+                <p>Paul Pfeiffer’s Visiting Artist lecture scheduled for Wednesday, April 3 has been CANCELLED.</p>
+            </div>
+            <div id="news">
+                <h3>New Radio Station</h3>
+                <p><a href="http://radiokitchen.live/">radiokitchen.live</a> is an independent radio running during the Open Studios 2019 at Yale School of Art in New Haven.</p>
+                <img src="https://media.giphy.com/media/YFGLgrwHNWEZELIHrn/giphy.gif" width="50%" height="50%">
+            </div>
+            <div id="news">
+                <h3>Yale School of Arts Open Studios</h3>
+                <p>The open studios will run from April 6, 2019 and April 7, 2019. There is more information available on the <br><a href="http://yaleschoolofart.org/openstudios2019/">Yale Art organization website</a></p>
+                <img src="http://art.yale.edu/image_columns/0015/8013/o_studios_648.gif?1554246225" height="25%" width="25%" style="transform: rotate(90deg); margin: -50px auto; display: block;">
+            </div>
+            <div id="news">
+                <h3>Hito Steyerl visits Yale School of Art</h3>
+                <img src="http://art.yale.edu/image_columns/0015/7051/hito-april1st_648.gif?1553462641" width="50%" height="50%">
+            </div>
+            <div id="news">
+                <h3>Matthew Carter visits Yale School of Art</h3>
+                <img src="http://art.yale.edu/image_columns/0015/7304/poster_matthew_carter_648.jpg?1553705625" width="50%" height="50%" style="transform: rotate(270deg); margin: -125px auto; display: block;">
+            </div>
+            <!-- template
+            <div id="news">
+                <h3></h3>
+                <p></p>
+            </div>
+            -->
+        </div>
+        <div id="right">
+            <h2>Information</h2>
+            <a href="http://eepurl.com/c4lFMn">Sign up for our newsletter</a>
+            <p></p>
+            <a href="https://calendar.yale.edu/cal/main/listEvents.do?setappvar=bwFilters(|||bwNav3-publicAliasesListedByysoa)">Yale School of Arts alternative calander</a>
+        </div>
     </main>
     <footer>
         <i>&copy;
