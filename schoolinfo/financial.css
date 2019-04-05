@@ -1,0 +1,39 @@
+  header {
+            text-align: center;
+            background-color: midnightblue;
+            color: white;
+            font-size: 40px;
+            font-family: Cinzel, sans-serif;
+        }
+        
+        header > img {
+            width: 55px;
+            height: 54px;
+            float: left;
+        }
+        
+        
+        footer {
+            text-align: center;
+            background-color: black;
+            color: white;
+            width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .box{
+            width: 70%;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 20px;
+        }
+        
+        .box > h2 {
+            text-align: left;
+            text-decoration: underline;
+        }
+        
+        
+        
