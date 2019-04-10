@@ -7,7 +7,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="stylesheets/main.css">
     <style>
-        a, p, h3, h2 {
+        main a, p, h3, h2 {
             color: #0f4d92;   
         }
         
@@ -15,7 +15,7 @@
             margin-left: 180px;
         }
         
-        a, p {
+        main a, p {
             margin-left: 20px;
         }
         
@@ -27,11 +27,16 @@
             display: block;
             float: left;
             padding-left: 50px;
+            width: 50%;
         }
         
         #right {
             display: block;
             float: right;
+            width: 30%;
+            text-align: center;
+            height: 1000px;
+            overflow: auto;
         }
     </style>
 </head>
@@ -105,9 +110,8 @@
             <a href="https://www.facebook.com/YaleSchoolofArt/" target="_blank">Find us on Facebook</a>
         </div>
         </div>
-        <div id="right">
-            <h2>Facebook Feed:</h2>
-            <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2FYaleSchoolofArt&width=600&colorscheme=light&show_faces=true&border_color&stream=true&header=true&height=435" scrolling="yes" style="border:none; overflow:hidden; width:600px; height:1000px; background: white;" allowtransparency="true" frameborder="0"></iframe>
+        <div id="right">    
+            <a class="twitter-timeline" href="https://twitter.com/YaleSchoolofArt?ref_src=twsrc%5Etfw">Tweets by YaleSchoolofArt</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
     </main>
     <footer>
