@@ -6,10 +6,38 @@
     <link rel="shortcut icon" href="images/favicon.ico">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="stylesheets/main.css">
+    <style>
+        a, p, h3, h2 {
+            color: #0f4d92;   
+        }
+        
+        #right h2 {
+            margin-left: 180px;
+        }
+        
+        a, p {
+            margin-left: 20px;
+        }
+        
+        .box {
+            padding-left: 20px;
+        }
+        
+        #left {
+            display: block;
+            float: left;
+            padding-left: 50px;
+        }
+        
+        #right {
+            display: block;
+            float: right;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <a href="index.html"><img class="logo" src="images/logo.png"/></a>
+        <a href="index.html"><img class="logo" src="images/logo.png" alt="Yale School of Art logo"/></a>
     </header>
     <nav>
         <div class="dropdown">
@@ -43,7 +71,44 @@
         </div>
     </nav>
     <main>
-        
+        <div id="left">
+        <h2>Contact Information</h2>
+        <div class="box">
+            <h3>Dean's Office</h3>
+            <a href="tel:2034322606">(203) 432-2606</a>
+        </div>
+        <div class="box">
+            <h3>Registrar and Admissions</h3>
+            <a href="tel:2034322600">(203) 432-2600</a>
+            <p>Admissions questions:</p>
+            <a href="mailto:art.admissions@yale.edu">art.admissions@yale.edu</a>
+            <p>Registrar and other inquiries:</p>
+            <a href="mailto:artschool.info@yale.edu">artschool.info@yale.edu</a>
+        </div>
+        <div class="box">
+            <h3>Digital Technology Office</h3>
+            <a href="tel:2034329120">(203) 432-9120</a>
+            <a href="mailto:art.help@yale.edu">art.help@yale.edu</a>
+        </div>
+        <div class="box">
+            <h3>Donations and Gifts</h3>
+            <a href="mailto:jill.westgard@yale.edu">jill.westgard@yale.edu</a>
+        </div>
+        <div class="box">
+            <h3>Public Affairs/Media Inquiries</h3>
+            <a href="mailto:sarah.stevens-morling@yale.edu">sarah.stevens-morling@yale.edu</a>
+        </div>
+        <div class="box">
+            <h3>Social Media</h3>
+            <a href="https://www.instagram.com/yaleschoolofart/" target="_blank">Follow us on Instagram</a><br>
+            <p></p>
+            <a href="https://www.facebook.com/YaleSchoolofArt/" target="_blank">Find us on Facebook</a>
+        </div>
+        </div>
+        <div id="right">
+            <h2>Facebook Feed:</h2>
+            <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2FYaleSchoolofArt&width=600&colorscheme=light&show_faces=true&border_color&stream=true&header=true&height=435" scrolling="yes" style="border:none; overflow:hidden; width:600px; height:1000px; background: white;" allowtransparency="true" frameborder="0"></iframe>
+        </div>
     </main>
     <footer>
         <i>&copy;
