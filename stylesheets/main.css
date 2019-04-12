@@ -80,6 +80,14 @@ footer {
     padding-top: 50px;
 }
 
-footer a {
+main a:hover, footer a:hover {
+    text-decoration: none;
+}
+        
+main a:active, footer a:active {
+    text-decoration: underline;
+}
+
+main a, footer a {
     color: #0f4d92;
 }
