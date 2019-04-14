@@ -61,7 +61,6 @@ nav a:hover, .dropdown:hover .dropbtn {
   text-decoration: none;
   display: block;
   text-align: left;
-  background-color: 
 }
 
 .dropdown-content a:hover {
@@ -98,6 +97,6 @@ main a, footer a {
     color: #0f4d92;
 }
 
-main p {
+main p, main h3, main h2 {
     color: #0f4d92;
 }
